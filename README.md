@@ -21,8 +21,6 @@
 ### 基本原理:  
 運用DFS演算法去嘗試走訪所有的邊，如果有走訪過的點標記已走過，最後檢查是否有未走過的點，如果有就為"disconnected"，反之則為"connected"。
 
-![avatar](https://upload.cc/i1/2020/05/21/l6H1Bb.jpg
-)
 ### 引用函式庫說明:
 ```cpp
 #include<iostream> //負責輸出/輸入
