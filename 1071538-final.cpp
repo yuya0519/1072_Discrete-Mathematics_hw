@@ -17,7 +17,6 @@ int main()
 		for (int j = 0; j < point; j++)
 			check[j] = 1;
 		int**link = new int*[point];
-		int *ptoq = new int[line + 1];
 		for (int j = 0; j < point; j++) 
 			link[j] = new int[point];
 		for (int j = 0; j < point; j++)
@@ -40,7 +39,6 @@ int main()
 			answer[i] = 0;	
 		delete[]check;
 		delete[]link;
-		delete[]ptoq;
 	}
 	cout << endl << endl;
 	for (int i = 0; i < cases; i++) {
