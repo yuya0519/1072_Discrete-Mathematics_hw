@@ -26,7 +26,7 @@
 #include<iostream> //負責輸出/輸入
 ```
 
-### Global變數說明:
+### 變數說明:
 ```cpp
 int cases; //存放測資個數 
 ```
